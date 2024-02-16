@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative property example</title>
+    <style>
+        span{
+            font-weight: bold;
+        }
+        p{
+            background-color: blueviolet;
+            color: azure;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .main{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.one{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+
+.two{
+    background-color: rgb(255, 42, 0);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.three{
+    background-image: linear-gradient(90deg,brown,gold,rgb(255, 0, 157));
+    height: 100px;
+    width: 100px;
+    margin: 5px;  
+    position: absolute;
+left: 500px;
+    
+}
+    </style>
+</head>
+<body>
+    <p><span>2.Relative Position</span> : <br>
+        a.They are  affected by top ,left, bottom. <br>
+        b.A space is created for them in the document. <br>
+        c.It will affect the document flow. <br>
+    d. Below example, 1st and 3rd Box properties are "relative" and we adjusted their postions with top and left attributes.</p>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div> 
+</body>
+</html>

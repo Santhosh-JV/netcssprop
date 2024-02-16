@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute property example</title>
+    <style>
+        span{
+            font-weight: bold;}
+        p{
+            background-color: chocolate;
+            padding: 10px;
+        }
+        .ab{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    border :2px solid black;
+    position: relative;
+}
+h1{
+    position: absolute;
+    left: 100px;
+}
+    </style>
+</head>
+<body>
+    <p><span>3.Absolute Position</span>:
+        
+        <br>a.They are  affected by top ,left, bottom or right. <br>
+        b.It will affect the document flow. <br>
+        c.No space is created. <br>
+        d.It will be positioned with respect to parent element position property. <br>e. If no "relative" property present at parent element , it will be positioned with respect to browser window. <br> Here div container acts as parent element and "Hello" is the child .</p>
+    <div class="ab">
+        <h1>Hello</h1>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

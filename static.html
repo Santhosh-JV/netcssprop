@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static property example</title>
+    <style>
+       span{
+            font-weight: bold;
+        }
+        p{
+            font-style: italic;
+            width: fit-content;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+        .main{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.one{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: static;
+    top: 50px;
+    left: 25px;
+}
+
+.two{
+    background-color: rgb(255, 42, 0);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.three{
+    background-image: linear-gradient(90deg,brown,gold,rgb(255, 0, 157));
+    height: 100px;
+    width: 100px;
+    margin: 5px;  
+    position: static;
+left: 500px;
+    
+}
+    </style>
+</head>
+<body>
+    <p><span>1.Static Position</span> :They are not affected by top ,left, bottom or right
+        By default all the html elements are positioned static.</p>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div> 
+</body>
+</html>
